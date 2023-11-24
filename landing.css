@@ -1,0 +1,92 @@
+{
+    Box-sizing: border-box;
+        Margin: 0;
+        Padding: 0;
+    }
+    
+    Body {
+        Font-family: Arial, sans-serif;
+    }
+    
+    Header {
+        Background-color: #ece8e7;
+        Color: #110909;
+        Display: flex;
+        Flex-direction: column;
+        Align-items: center;
+        Padding: 20px;
+    }
+    
+    Nav ul {
+        Display: flex;
+        List-style: none;
+        Margin-top: 20px;
+    }
+    
+    Nav ul li {
+        Margin: 0 10px;
+    }
+    
+    Nav ul li a {
+        Color: #151313;
+        Text-decoration: none;
+    }
+    
+    Main {
+        Display: flex;
+        Flex-wrap: wrap;
+        Justify-content: space-around;
+        Padding: 20px;
+    }
+    
+    Section {
+        Flex-basis: 45%;
+        Margin-bottom: 20px;
+    }
+    
+    Section h2 {
+        Margin-bottom: 10px;
+    }
+    
+    .product {
+        Background-color: #ece7e7;
+        Border: 1px solid#eeecf0;
+        Border-radius: 5px;
+        Box-shadow: 0 0 5px #ecebef;
+        Padding: 10px;
+        Text-align: center;
+    }
+    
+    .product img {
+        Max-width: 100%;
+    }
+    
+    .product h3 {
+        Margin-top: 10px;
+    }
+    
+    .product p {
+        Margin-top: 10px;
+    }
+    
+    .product button {
+        Background-color:hsl(0, 0%, 3%);
+        Border: none;
+        Border-radius: 5px;
+        Color: hwb(0 95% 4%);
+        Cursor: pointer;
+        Margin-top: 10px;
+        Padding: 10px;
+        Transition: background-color 0.3s ease;
+    }
+    
+    .product button:hover {
+        Background-color: hsl(0, 17%, 98%);
+    }
+    
+    Footer {
+        Background-color:hsl(180, 69%, 97%);
+        Color: rgb(7, 9, 9);
+        Padding: 20px;
+        Text-align: center;
+    }
